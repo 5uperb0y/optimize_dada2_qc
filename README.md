@@ -1,5 +1,7 @@
 # optimize-dada2-qc
 This project aimed to optimize DADA2 filtering and trimming parameters for paired-end reads obtained from the illumina platform.
+## Examplified .fastq data
+Fastq files were obtained from the website of DIABIMMUNE projects (https://diabimmune.broadinstitute.org/diabimmune)
 
 ## License
 ```
