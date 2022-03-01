@@ -109,7 +109,7 @@ sort_params <- function(params) {
   return(params)
 }
 
-optmize_dada2_qc <- function (fqF,fqR,inspected_eeMax, required_len, read_len) {
+optimize_dada2_qc <- function (fqF,fqR,inspected_eeMax, required_len, read_len) {
   filt <- bind_filt_stat(fqF, fqR, inspected_eeMax, required_len, read_len)
   params <- optim_len_cutoff(filt)
   optim_params <- sort_params(params)
